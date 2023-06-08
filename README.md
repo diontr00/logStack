@@ -4,6 +4,8 @@ In the doc of zap , i couldn't easily find the way to configure. So i decide to 
 
 The package provides a logger with different log levels (Info, Warn, Error, DPanic, Panic, Fatal, and Debug) that can be configured with different options such as enabling/disabling caller info, adding stack traces, and adding fields to the logger.
 
+Also can be used as pgx log adapter with tracelog
+
 The logger instance can be used to log messages at different level :
 
 ```go
